@@ -261,6 +261,16 @@ progress {
 textarea {
   overflow: auto;
 }
+h1, h2, h3, h4, h5, h6, ul, li, p {
+  margin: 0;
+  margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+list-style: none;
+}
 
 /**
  * 1. Add the correct box sizing in IE 10.

@@ -4,8 +4,6 @@ const carriageButton = document.querySelector("#carriage-button");
 const modal = document.querySelector(".modal");
 const close = document.querySelector(".close");
 
-// day 1 js
-
 const buttonAuth = document.querySelector(".buttonAuth");
 const modalAuth = document.querySelector(".modalAuth");
 const closeAuth = document.querySelector(".closeAuth");
@@ -13,7 +11,7 @@ const logInForm = document.querySelector("#logInForm");
 const loginInput = document.querySelector("#login");
 const userName = document.querySelector(".userName");
 const buttonOut = document.querySelector(".buttonOut");
-// day 2 js
+
 const cardsRestaratunts = document.querySelector(".cardsRestaurants");
 const containerPromo = document.querySelector(".banner");
 const restaurants = document.querySelector(".restaurants");
@@ -38,7 +36,6 @@ const valid = function (str) {
   return nameReg.test(str);
 };
 
-// day 3
 const getData = async function (url) {
   const response = await fetch(url);
 
@@ -126,8 +123,6 @@ function checkAuth() {
     notAuthorized();
   }
 }
-
-// day 2 js
 
 function createCardRestaurant(restaurant) {
   console.log(restaurant);
